@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MonsterClicker</string>
+    <string name="per_second">s</string>
+    <string name="training">Entraîner</string>
+    <string name="hunt">Capturer</string>
+    <string name="shop">Magasin</string>
+    <string name="bank">Convertir</string>
+    <string name="evolution">Evolution</string>
+</resources>

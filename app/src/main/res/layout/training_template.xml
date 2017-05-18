@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/border_simple"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+
+    <TextView
+        android:id="@+id/buildingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="build"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/buildingLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="nv 0" />
+
+    <GridLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <TextView
+            android:id="@+id/whitePrice"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:layout_row="0"
+            android:text="000" />
+
+        <TextView
+            android:id="@+id/whiteIncome"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="1dp"
+            android:layout_row="0"
+            android:text="999" />
+
+        <TextView
+            android:id="@+id/bluePrice"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:layout_row="1"
+            android:text="00000"
+            android:textColor="@color/energyBlue" />
+
+        <TextView
+            android:id="@+id/blueIncome"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="1dp"
+            android:layout_row="1"
+            android:text="99999"
+            android:textColor="@color/energyBlue" />
+
+
+        <TextView
+            android:id="@+id/greenPrice"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:layout_row="2"
+            android:text="00000"
+            android:textColor="@color/energyGreen" />
+
+        <TextView
+            android:id="@+id/greenIncome"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="1dp"
+            android:layout_row="2"
+            android:text="99999"
+            android:textColor="@color/energyGreen" />
+
+
+        <TextView
+            android:id="@+id/redPrice"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:layout_row="3"
+            android:text="00000"
+            android:textColor="@color/energyRed" />
+
+        <TextView
+            android:id="@+id/redIncome"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="1dp"
+            android:layout_row="3"
+            android:text="99999"
+            android:textColor="@color/energyRed" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>
